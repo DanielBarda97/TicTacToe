@@ -6,11 +6,11 @@ function InfoPlayer(props) {
   const turnNumber = useSelector((state) => state.turnNumber)
 
   return (
-    <nav className="row bg-dark text-white align-items-center mb-3">
-      <div className="col-lg-3">
-        <h2 className="text-info">Tic tac toe</h2>
+    <nav className="row info align-items-center mb-3">
+      <div className="col-5">
+        <span className="ticToe text-dark">React-Redux |</span> <h2 className="ticToe">Tic Tac Toe</h2>
       </div>
-      <div className="col-lg-3 p-2">
+      <div className="col-7 p-2 text-end font-weight-bold">
         Player Turn: {playerTurn} | Turn Number: {turnNumber}
       </div>
     </nav>
