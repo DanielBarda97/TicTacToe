@@ -1,11 +1,12 @@
-import './App.css';
+import TicTacApp from "./tic_comps/ticTacApp"
+import "./App.css"
 
 function App() {
   return (
     <div className="App">
-      <h1>react work</h1>
+      <TicTacApp />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

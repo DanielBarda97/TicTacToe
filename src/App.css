@@ -1,0 +1,26 @@
+.board{
+  max-width: 600px;
+  height: 600px;
+  background: black;
+
+}
+
+.board .tile{
+  width:33.33%;
+  background: silver;
+  height: 200px;
+  border:1px solid black;
+  display: grid;
+  place-items: center;
+  font-size: 5em;
+}
+@media (max-width:728px){
+  .board {
+    max-width: 400px;
+    height: 400px;
+  }
+
+  .board .tile{
+    height: 133px;
+  }
+}
